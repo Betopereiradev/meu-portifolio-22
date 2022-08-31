@@ -1,0 +1,123 @@
+@media (max-width: 1024px) {
+
+  .container-principal {
+    width: 90%;
+  }
+
+  .p1 {
+    flex-direction: column;
+  }
+  .p1 h1 {
+    font-size: 6rem;
+  }
+
+  .sobre-mim {
+    height: 100vh;
+  }
+
+  .skills {
+    height: 90vh;
+  }
+  
+  .card-wrapper {
+    width: 100%;
+    gap: 30px;
+  }
+
+  .projetos-wrapper {
+    flex-direction: column;
+  }
+
+  .projeto-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  .nav-links a{
+    font-size: 2.4rem;
+  }
+
+  .p1 {
+    height: 80vh;
+    align-items: center;
+  }
+  .p1 h1 {
+    font-size: 4.5rem;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+  }
+
+  .projeto{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills {
+    height: 170vh;
+  }
+
+}
+
+
+@media (max-width: 425px) {
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+  }
+
+  .p1 {
+    height: 70vh;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .p1 h1 {
+    font-size: 3.5rem;
+  }
+
+  .perfil-wrapper {
+    flex-direction: column;
+  }
+
+  .parte-foto-perfil, .parte-info-perfil {
+    width: 100%;
+  }
+
+  .sobre-mim {
+    margin-bottom: 300px;
+  }
+
+  .projeto img {
+    object-fit: cover;
+  }
+
+  .projeto-info {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 100px;
+  }
+
+  
+}
+
+@media (max-width: 390px) {
+  .sobre-mim {
+    margin-bottom: 400px;
+  }
+}
